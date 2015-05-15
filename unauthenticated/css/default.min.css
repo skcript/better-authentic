@@ -5,6 +5,13 @@
  */
 
 @import url(../fonts/roboto/roboto.min.css);
+body, input, textarea, select, button {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: 'liga', 'kern';
+}
 #collapse {
     padding-right: 15px
 }
@@ -1333,7 +1340,7 @@ td.col_value label,
 .panel {
     position: relative;
     color: #333;
-    border-color: #e6e6e6;
+    border-color: #2979FF;
     border-top-width: 4px
 }
 .panel-body .tab-content .ui_form+.ui_form,
@@ -1827,7 +1834,8 @@ a.opener_trigger,
     font-weight: bold;
     opacity: 1;
     color: #fff;
-    border-bottom: 1px solid transparent
+    background-color: #333333;
+    border-bottom: 1px solid transparent;
 }
 .switch-mins a {
     border-radius: 0;
