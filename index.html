@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Better-authentic by skcript</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Better-authentic</h1>
+        <h2>Improving authentic theme for Webmin. </h2>
+        <a href="https://github.com/skcript/better-authentic" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h2>
+<a id="contents" class="anchor" href="#contents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contents</h2>
+
+<ul>
+<li><a href="https://github.com/qooob/authentic-theme/blob/master/CHANGELOG.md">Changelog</a></li>
+<li><a href="https://raw.githubusercontent.com/qooob/authentic-theme/master/.build/authentic-theme-latest.wbt.gz">Download<img src="https://rostovtsev.ru/pub/media/icons/download-23x14.png" alt=""></a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#troubleshoot">Troubleshoot</a></li>
+<li><a href="#development">Development</a></li>
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;lc=us&amp;business=programming%40rostovtsev%2eru&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest">Donation<img src="https://rostovtsev.ru/pub/media/icons/heart-23x15.png" alt=""></a></li>
+<li><a href="https://github.com/qooob/authentic-theme/blob/master/LICENSE">License</a></li>
+</ul>
+
+<h2>
+<a id="about" class="anchor" href="#about" aria-hidden="true"><span class="octicon octicon-link"></span></a>About</h2>
+
+<p><strong>Authentic</strong> is <a href="https://github.com/webmin/webmin">Webmin/</a><a href="https://github.com/webmin/usermin">Usermin/</a><a href="https://www.virtualmin.com/">Virtualmin/</a><a href="http://webmin.com/cloudmin.html">Cloudmin</a> theme based on <a href="https://github.com/twbs/bootstrap">Bootstrap</a> and <a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> that is made with <em>love</em>. It uses <a href="http://codemirror.net/">CodeMirror</a> to highlight config files and show line numbers, when editing manually, <a href="http://www.tinymce.com/">TinyMCE</a> to compose comprehensive HTML based messages and <a href="http://www.datatables.net/">DataTables</a> to add advanced interaction controls to modules' tables. Theme runs using latest releases of dependent software (mentioned above), supporting all in-built modules (even ancient ones) and third-party modules, including <a href="http://configserver.com/cp/csf.html">ConfigServer Security &amp; Firewall</a>.</p>
+
+<p><a href="http://youtu.be/gfuPFuGpyv8"><img src="https://raw.githubusercontent.com/qooob/authentic-theme/master/images/screenshot.png" alt="ScreenShot"></a></p>
+
+<h4>
+<a id="principles" class="anchor" href="#principles" aria-hidden="true"><span class="octicon octicon-link"></span></a>Principles</h4>
+
+<ul>
+<li>Make the theme fully support all <em>Webmin/Usermin</em> modules</li>
+<li>Be as beautiful, fast, light and easy to use as possible</li>
+<li>Be compatible with all platforms and support mobile devices</li>
+</ul>
+
+<h4>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h4>
+
+<ul>
+<li>Mail <em>notifications</em> upon unauthenticated user landing on login page and user successful login</li>
+<li>Unprecedentedly <em>convenient and complete navigation</em> for both desktop and mobile versions</li>
+<li>
+<em>Autocomplete</em> for quick and effective navigation</li>
+<li>
+<em>Hotkeys</em> for quick access control</li>
+<li>
+<em>Code highlight</em> when editing files manually</li>
+<li>Extensive list of customizable theme <em>settings</em>, with ability to embed user <em>logos</em>, <em>styles</em> and <em>scripts</em>
+</li>
+<li>Extended support for <em>ConfigServer Security &amp; Firewall</em>
+</li>
+</ul>
+
+<h4>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirements</h4>
+
+<ul>
+<li>Webmin <em>1.730+</em> (required), Usermin <em>1.640+</em> (optional), Virtualmin <em>4.14+</em> (optional), Cloudmin <em>8.01+</em> (optional)</li>
+</ul>
+
+<h4>
+<a id="recommended-modules" class="anchor" href="#recommended-modules" aria-hidden="true"><span class="octicon octicon-link"></span></a>Recommended modules</h4>
+
+<ul>
+<li>Installed <em>Net::SSLeay</em> module, to make automatic update notifications work</li>
+</ul>
+
+<h4>
+<a id="browser-support" class="anchor" href="#browser-support" aria-hidden="true"><span class="octicon octicon-link"></span></a>Browser support</h4>
+
+<h6>
+<a id="-chrome-24" class="anchor" href="#-chrome-24" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<img src="https://rostovtsev.ru/pub/media/icons/chrome-16.png" alt=""> Chrome 24+</h6>
+
+<h6>
+<a id="-firefox-5" class="anchor" href="#-firefox-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<img src="https://rostovtsev.ru/pub/media/icons/firefox-16.png" alt=""> Firefox 5+</h6>
+
+<h6>
+<a id="-opera-18" class="anchor" href="#-opera-18" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<img src="https://rostovtsev.ru/pub/media/icons/opera-16.png" alt=""> Opera 18+</h6>
+
+<h6>
+<a id="-safari-6" class="anchor" href="#-safari-6" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<img src="https://rostovtsev.ru/pub/media/icons/safari-16.png" alt=""> Safari 6+</h6>
+
+<h6>
+<a id="-ie-10" class="anchor" href="#-ie-10" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<img src="https://rostovtsev.ru/pub/media/icons/internet-explorer-16.png" alt=""> IE 10+</h6>
+
+<h3>
+<a id="faq" class="anchor" href="#faq" aria-hidden="true"><span class="octicon octicon-link"></span></a>FAQ</h3>
+
+<h4>
+<a id="how-do-i-install-authentic-theme" class="anchor" href="#how-do-i-install-authentic-theme" aria-hidden="true"><span class="octicon octicon-link"></span></a>How do I install <em>Authentic</em> Theme?</h4>
+
+<h5>
+<a id="webmin" class="anchor" href="#webmin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Webmin</h5>
+
+<p>To install <em>Autentic</em> Theme from repository, just <code>clone</code> it into your wherever Webmin binaries folder <em>(libexec)</em> is or <a href="https://raw.githubusercontent.com/qooob/authentic-theme/master/.build/authentic-theme-latest.wbt.gz">download</a> it directly and install it going from Webmin:</p>
+
+<p><code>Webmin-&gt;Webmin Configuration-&gt;Webmin Themes-&gt;Install themes-&gt;From uploaded file</code></p>
+
+<h5>
+<a id="usermin" class="anchor" href="#usermin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usermin</h5>
+
+<p><strong>a)</strong> I'd recommend to create a <em>symlink</em> to already installed <em>Authentic</em> Theme, which will enable you to only update Webmin installation of the theme not both.</p>
+
+<p>Creating a <em>symlink</em> as easy as it gets by running as root the following:</p>
+
+<p><code>ln -s /usr/libexec/webmin/authentic-theme /usr/libexec/usermin/authentic-theme</code></p>
+
+<blockquote>
+<p>The above implies that Webmin binaries on your system are installed under <code>/usr/libexec/webmin/</code> and Usermin installation is in <code>/usr/libexec/usermin/</code>. The above is true for <em>CentOS</em> and other RHEL distros at least. You could easily though find out where your installations are by running <code>/usr/bin/whereis webmin</code> or <code>/usr/bin/whereis usermin</code>.</p>
+</blockquote>
+
+<p><strong>b)</strong> Nevertheless, you could simply install Usermin theme using the same procedure as for Webmin. To install a copy for Usermin go to:</p>
+
+<pre><code>`Webmin-&gt;Usermin Configuration-&gt;Usermin Themes-&gt;Install themes-&gt;From uploaded file`
+</code></pre>
+
+<h5>
+<a id="virtualmincloudmin" class="anchor" href="#virtualmincloudmin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Virtualmin/Cloudmin</h5>
+
+<p>There is no need to take any additional actions. In case <em>Virtualmin</em> or <em>Cloudmin</em> modules are installed, it will be automatically detected and supported.</p>
+
+<h4>
+<a id="how-do-i-set-custom-logos" class="anchor" href="#how-do-i-set-custom-logos" aria-hidden="true"><span class="octicon octicon-link"></span></a>How do I set custom logos?</h4>
+
+<p>Custom logos can be easily set for both authenticated users and for login screen. It can be done by coping a file named <code>logo.png/logo_welcome.png</code> to <em>Authentic</em> Theme <em>configuration</em> folder. It's located to wherever <em>Webmin/Usermin</em> sets it's configuration directory. For example, on most systems this path would resolve to <code>/etc/webmin/authentic-theme</code> for <em>Webmin</em> and <code>/etc/usermin/authentic-theme</code> for <em>Usermin</em>. Make sure that the file containing logo is called <code>logo.png</code> for authenticated users and <code>logo_welcome.png</code> for login screen. You can access logos with custom CSS styles (read below) by its class name, which is correspondingly <code>_logo/_logo_welcome</code>. Recommended size is <em>180x90</em> pixels. In case you want to remove the logo, just delete this file from configuration directory. In case you want to have <em>Authentic</em> Theme logo, you can find it in theme installation folder (usually located at <code>/usr/libexec/webmin/authentic-theme</code>), under images directory, with the file name called <code>__logo.png</code>. Don't forget to rename it, to make it work, when uploading to <em>configuration</em> directory.</p>
+
+<h4>
+<a id="how-do-i-load-custom-styles" class="anchor" href="#how-do-i-load-custom-styles" aria-hidden="true"><span class="octicon octicon-link"></span></a>How do I load custom styles?</h4>
+
+<p>Custom styles are set by the same procedure described for the logos above. Only the file name that has to be copied to <code>/etc/webmin/authentic-theme</code> must be <code>styles.css</code>. For example, if you want to change <code>font-family</code> for the theme, you would have to add the following to custom <code>styles.css</code>:</p>
+
+<div class="highlight highlight-CSS"><pre><span class="pl-ent">body</span>,
+<span class="pl-ent">html</span>,
+<span class="pl-e">.tooltip</span>,
+<span class="pl-e">.popover</span> {
+    <span class="pl-c1"><span class="pl-c1">font-family</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Times New Roman<span class="pl-pds">"</span></span>, <span class="pl-c1">Times</span>, <span class="pl-c1">serif</span>;
+}</pre></div>
+
+<h4>
+<a id="how-do-i-load-custom-scripts" class="anchor" href="#how-do-i-load-custom-scripts" aria-hidden="true"><span class="octicon octicon-link"></span></a>How do I load custom scripts?</h4>
+
+<p>It's done the same way as described for styles and logos above. The file name that has to be copied to <code>/etc/webmin/authentic-theme</code> must be <code>scripts.js</code>. For example, if you want to load custom script and output something to browser's console, you would have to add the following to <code>scripts.js</code>:</p>
+
+<div class="highlight highlight-JavaScript"><pre><span class="pl-en">console</span><span class="pl-c1">.log</span>(<span class="pl-s"><span class="pl-pds">'</span>Script loaded...<span class="pl-pds">'</span></span>);</pre></div>
+
+<blockquote>
+<p>Be advised, you might be surprised to see that your script is executed twice. It's because we technically have two <code>documents</code>, first is <code>main</code> container and second is <code>right</code> side that is loaded in <em>iframe</em>. You must refer to the exact <code>document</code> to make your script executed right.</p>
+</blockquote>
+
+<h4>
+<a id="how-do-i-use-theme-settings" class="anchor" href="#how-do-i-use-theme-settings" aria-hidden="true"><span class="octicon octicon-link"></span></a>How do I use theme settings?</h4>
+
+<p>Theme can be tweaked using inbuilt <em>settings</em>. The list of the <em>settings</em> will be growing, depending on users' requests.</p>
+
+<div class="highlight highlight-JavaScript"><pre><span class="pl-c">//</span>
+<span class="pl-c">//      Authentic Theme settings since version 12.00        //</span>
+<span class="pl-c">//</span>
+
+<span class="pl-c">// Show/hide right page icons</span>
+settings_right_hide_table_icons <span class="pl-k">=</span> <span class="pl-c1">false</span>;
+
+<span class="pl-c">// Make right page icons small</span>
+settings_right_small_table_icons <span class="pl-k">=</span> <span class="pl-c1">false</span>;
+
+<span class="pl-c">// Make right page icons extra small</span>
+settings_right_xsmall_table_icons <span class="pl-k">=</span> <span class="pl-c1">false</span>;
+
+<span class="pl-c">// Animate right page icons on focus</span>
+settings_right_animate_table_icons <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">// Grayscale icons and bring color only on focus</span>
+settings_right_grayscaled_table_icons <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">//</span>
+<span class="pl-c">//      Authentic Theme settings since version 11.55        //</span>
+<span class="pl-c">//</span>
+
+<span class="pl-c">// Enable/disable Easy Pie Charts on System Information page. Default is set to `true`</span>
+settings_sysinfo_easypie_charts <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">//</span>
+<span class="pl-c">//      Authentic Theme settings since version 11.50        //</span>
+<span class="pl-c">//</span>
+
+<span class="pl-c">// Enable/disable hotkeys usage</span>
+settings_hotkeys_active <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">// Set hotkeys modifier. Available values are `altKey/ctrlKey/metaKey`.</span>
+<span class="pl-c">// Note: `metaKey` is Windows/iOS special key. Default is set to `altKey`.</span>
+settings_hotkey_toggle_modifier <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>altKey<span class="pl-pds">'</span></span>;
+
+<span class="pl-c">// Set hotkey value for each action. For example, in case `settings_hotkey_toggle_modifier` is set to `ctrlKey` and one</span>
+<span class="pl-c">// of the following options, let's say, `settings_hotkey_toggle_key_virtualmin` is set to 'i', then in order to switch</span>
+<span class="pl-c">// to Virtualmin, you would have to click _Ctrl+I_. Default values are set as following: `w` for Webmin, `v` for Virtualmin,</span>
+<span class="pl-c">// `c` for Cloudmin, `u` for Usermin, `m` for Webmail, `s` for focusing on search filed and `r` for performing page refresh.</span>
+settings_hotkey_toggle_key_webmin <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>w<span class="pl-pds">'</span></span>;
+settings_hotkey_toggle_key_virtualmin <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>v<span class="pl-pds">'</span></span>;
+settings_hotkey_toggle_key_cloudmin <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>c<span class="pl-pds">'</span></span>;
+settings_hotkey_toggle_key_usermin <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>u<span class="pl-pds">'</span></span>;
+settings_hotkey_toggle_key_webmail <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>m<span class="pl-pds">'</span></span>;
+settings_hotkey_focus_search <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>s<span class="pl-pds">'</span></span>;
+settings_hotkey_reload <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>r<span class="pl-pds">'</span></span>;
+
+<span class="pl-c">// Enable/disable reloading of the right page when changing between Webmin/Virtualmin/Cloudmin</span>
+settings_right_reload <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">// Where do you want to go after you load Virtualmin/Cloudmin the first time or where do you want to go when switching to Virtualmin/Cloudmin</span>
+<span class="pl-c">// and `settings_right_reload` is set to `true`? It can be any valid Virtualmin/Cloudmin URL, that you can extract from the currently opened</span>
+<span class="pl-c">// right side page (to extract it, open the right frame's source, where you'll find the URL that you need to set as default). The default</span>
+<span class="pl-c">// value is `'sysinfo.cgi'` (System Information). It's important that URL has no slash at the begining. See default examples below.</span>
+settings_right_virtualmin_default <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>virtual-server/summary_domain.cgi?dom=142488888426248<span class="pl-pds">'</span></span>;
+settings_right_cloudmin_default <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>server-manager/edit_serv.cgi?id=1422426860414460<span class="pl-pds">'</span></span>;
+
+<span class="pl-c">// Replace right page header links, such as, `Module Config`, `Preferences`, `Search Docs..` with icons</span>
+settings_right_iconize_header_links <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">//</span>
+<span class="pl-c">//      Authentic Theme settings since version 11.00        //</span>
+<span class="pl-c">//</span>
+
+<span class="pl-c">// Enable/disable loader/spinner for the left frame</span>
+settings_loader_left <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">// Enable/disable loader/spinner for the right frame</span>
+<span class="pl-c">// Note: To prematurely dismiss right frame loader,</span>
+<span class="pl-c">//       click on it using double mouse click or</span>
+<span class="pl-c">//       quickly press Shift key two times</span>
+settings_loader_right <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">// Replace dots in mailbox delimiter to slashes (UI only)</span>
+settings_mailbox_slash_delimiter <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">// Autoscroll window down, upon page is populated from server-side</span>
+settings_window_autoscroll <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">// Make all accordions expanded on System Information page</span>
+settings_sysinfo_expand_all_accordions <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">// Check for theme updates on System Information page</span>
+settings_sysinfo_theme_updates <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">// Check for CSF updates on System Information page</span>
+settings_sysinfo_csf_updates <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">// Show/hide Webmin-&gt;Refresh Modules link on the left menu</span>
+settings_leftmenu_section_hide_refresh_modules <span class="pl-k">=</span> <span class="pl-c1">false</span>;
+
+<span class="pl-c">// Show/hide Webmin-&gt;Unused Modules link on the left menu</span>
+settings_leftmenu_section_hide_unused_modules <span class="pl-k">=</span> <span class="pl-c1">false</span>;
+
+<span class="pl-c">// Show/hide left menu's language button/link</span>
+settings_leftmenu_button_language <span class="pl-k">=</span> <span class="pl-c1">false</span>;
+
+<span class="pl-c">// Show/hide left menu's refresh button/link</span>
+settings_leftmenu_button_refresh <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">// Show Virtualmin-&gt;Install Scripts link on the left menu</span>
+settings_leftmenu_vm_installscripts <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">// Show Virtualmin-&gt;Edit Web Pages link on the left menu</span>
+settings_leftmenu_vm_webpages <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">// Show Virtualmin-&gt;Backup and Restore-&gt;Amazon S3 Buckets link on the left menu</span>
+settings_leftmenu_vm_backup_amazon <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">// Show left menu's single links' icons in Virtualmin/Cloudmin</span>
+settings_leftmenu_singlelink_icons <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+
+<span class="pl-c">// Security notifications</span>
+<span class="pl-c">// Format: 'Message|Subject|Comma separated list of users/emails|Comma separated list of trusted/ignored IPs'</span>
+<span class="pl-c">// Usage: '%3 login page is accessed by unauthenticated user from %2|%3 login page access alert|root,user@example.org|1.2.3.4,FE00:0000:0000:0000:0000:AAAA:0000:0000'</span>
+<span class="pl-c">// Output: From: root, To: Root, Subject: Webmin successful login alert, Message: Webmin successful login alert for user root from 2.3.4.5</span>
+
+<span class="pl-c">// Notify when unauthenticated user is seeing pre-login banner</span>
+settings_security_notify_on_pre_login_request <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>%3 pre-login page is accessed by unauthenticated user from %2|%3 login page access alert|root<span class="pl-pds">'</span></span>;
+
+<span class="pl-c">// Notify when unauthenticated user is landed on login page</span>
+settings_security_notify_on_login_request <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>%3 login page is accessed by unauthenticated user from %2|%3 login page access alert|root<span class="pl-pds">'</span></span>;
+
+<span class="pl-c">// Notify on successful authentication</span>
+settings_security_notify_on_login_success <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>%3 successful login alert for user %1 from %2|%3 successful login alert|root<span class="pl-pds">'</span></span>;
+</pre></div>
+
+<p>Settings must be initialized by the same procedure described for the scripts above. The only difference is that the file name, that has to be copied to <code>/etc/webmin/authentic-theme</code> or <code>/etc/usermin/authentic-theme</code> must be <code>settings.js</code>. Afterwards, put directives from the list of settings above and control it using boolean data type <code>(true/false)</code> or other (see comments for each setting respectively).</p>
+
+<h3>
+<a id="troubleshoot" class="anchor" href="#troubleshoot" aria-hidden="true"><span class="octicon octicon-link"></span></a>Troubleshoot</h3>
+
+<ol>
+<li>Automatic updates notification feature doesn't work or <code>Can't locate Net/SSLeay.pm in ..)</code><br>
+This happens because <em>Webmin</em> is trying to open a link and download the theme using <em>https</em> protocol. <code>Net::SSLeay</code> - is high level functions for accessing web servers (by using HTTP/HTTPS). You can install it using CPAN module in <em>Webmin</em> or using CLI. Package name is <code>perl-Net-SSLeay</code>.</li>
+<li>Strange <code>Â</code> character is appeared in text-editor mode<br>
+This happens because of encoding disparity. To fix this, just set language in <em>Webmin</em> to <code>UTF-8</code> and make sure that your browser also has detected it as <code>UTF-8</code>.</li>
+</ol>
+
+<h3>
+<a id="development" class="anchor" href="#development" aria-hidden="true"><span class="octicon octicon-link"></span></a>Development</h3>
+
+<h4>
+<a id="lead-developer" class="anchor" href="#lead-developer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lead developer</h4>
+
+<ul>
+<li>
+<a href="https://rostovtsev.ru">Ilia Rostovtsev</a><a href="http://stackoverflow.com/users/1455661/ilia-rostovtsev"><img src="https://rostovtsev.ru/pub/media/icons/stackoverflow-23x15.png" alt=""></a>
+</li>
+</ul>
+
+<h3>
+<a id="contributions" class="anchor" href="#contributions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributions</h3>
+
+<h4>
+<a id="translations" class="anchor" href="#translations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Translations</h4>
+
+<ul>
+<li>
+<a href="https://github.com/Rvanlaak">Richard van Laak</a> (Dutch)</li>
+<li>
+<a href="https://github.com/w00p">Kjetil Elde</a> (Norwegian)</li>
+<li>
+<a href="https://github.com/majk-p">Michał Pawlik</a> (Polish)</li>
+<li>
+<a href="https://github.com/mkkeck">Michael Keck</a> (German)</li>
+<li>
+<a href="https://github.com/qooob">Ilia Rostovtsev</a> (Russian)</li>
+<li>
+<a href="https://github.com/7starsone">7stars</a> (Spanish, French, Portuguese)</li>
+<li>
+<a href="https://github.com/Dreista">dreista</a> (Chinese)</li>
+<li>
+<a href="https://github.com/jlndk">jlndk</a> (Danish)</li>
+</ul>
+
+<h3>
+<a id="donation" class="anchor" href="#donation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Donation</h3>
+
+<p>Overall development of this theme has already passed the stage of 440 hours. I'm happy to provide <em>Authentic</em> Theme for free but please know, that it would mean a World to <em><a href="https://rostovtsev.ru">me</a></em>, if you send me a donation. It doesn't matter how big or small your donation is. I appreciate all donations. Each donation will <em>help me to pay my bills</em>, excite future development and improve your everyday experience, while working with the theme.</p>
+
+<p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;lc=us&amp;business=programming%40rostovtsev%2eru&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest">PayPal</a> or <a href="https://money.yandex.ru" alt="41001414241949">Yandex Money: 41001414241949</a></p>
+
+<h3>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h3>
+
+<p><em>Authentic</em> Theme is released under the <a href="https://github.com/qooob/authentic-theme/blob/master/LICENSE">MIT License</a></p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/skcript/better-authentic/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/skcript/better-authentic/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/skcript/better-authentic"></a> is maintained by <a href="https://github.com/skcript">skcript</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
