@@ -257,13 +257,30 @@ Settings must be initialized by the same procedure described for the scripts abo
 * [dreista](https://github.com/Dreista) (Chinese)
 * [jlndk](https://github.com/jlndk) (Danish)
 
-###Donation
+Getting Help
+------------
 
- Overall development of this theme has already passed the stage of 440 hours. I'm happy to provide _Authentic_ Theme for free but please know, that it would mean a World to _[me](https://rostovtsev.ru)_, if you send me a donation. It doesn't matter how big or small your donation is. I appreciate all donations. Each donation will _help me to pay my bills_, excite future development and improve your everyday experience, while working with the theme.
+We spent about 40% of our time contributing to Open Source software. That's one of our goals for this year. Please [tweet](https://twitter.com/skcriptd) us with any queries you have. 
 
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&lc=us&business=programming%40rostovtsev%2eru&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest">PayPal</a> or <a href="https://money.yandex.ru" alt="41001414241949">Yandex Money: 41001414241949</a>
+License
+-------
+
+Better Authentic is Copyright (c) 2015 Skcript. It is free software, and may be
+redistributed under the terms specified in the [LICENSE] file.
+
+[LICENSE]: /LICENSE
 
 
-### License
+About
+-----
 
-_Authentic_ Theme is released under the [MIT License](https://github.com/qooob/authentic-theme/blob/master/LICENSE)
+![Skcript](http://www.skcript.com/static/skcript_norm.png)
+
+Better Authentic is maintained and funded by Skcript. The names and logos for
+Skcript are properties of Skcript.
+
+We love open source, and we have been doing quite a bit of contributions to the community. Take a look at them [here][skcriptoss]. Also, encourage people around us to get involved in community [operations][community]. [Join us][hiring], if you'd like to see the world change from our HQ.
+
+[skcriptoss]: http://skcript.github.io/
+[community]: http://www.skcript.com/community?utm_source=github
+[hiring]: http://www.skcript.com/careers?utm_source=github
