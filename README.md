@@ -260,7 +260,7 @@ Settings must be initialized by the same procedure described for the scripts abo
 Getting Help
 ------------
 
-We spent about 40% of our time contributing to Open Source software. That's one of our goals for this year. Please [tweet](https://twitter.com/skcriptd) us with any queries you have. 
+We spend about 40% of our time contributing to Open Source software. That's one of our goals for this year. Please [tweet](https://twitter.com/skcriptd) us with any queries you have. 
 
 License
 -------
